@@ -12,7 +12,7 @@ namespace EHR01.Modules.Pharmacy.Models
         public DateTime DispensedAt { get; set; }
 
         // Navigation
-        public Medicine Medicine { get; set; } = null!;
+        public Medico Medicine { get; set; } = null!;
         public PharmacyStaff DispensedByStaff { get; set; } = null!;
     }
 }

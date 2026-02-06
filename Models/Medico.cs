@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace EHR01.Modules.Pharmacy.Models
 {
-    public class Medicine
+    public class Medico
     {
         public int MedicineId { get; set; }
         public string MedicineName { get; set; } = null!;

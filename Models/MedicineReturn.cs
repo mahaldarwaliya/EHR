@@ -14,7 +14,7 @@ namespace EHR01.Modules.Pharmacy.Models
 
         // Navigation
         public MedicineInventory Inventory { get; set; } = null!;
-        public Medicine Medicine { get; set; } = null!;
+        public Medico Medicine { get; set; } = null!;
         public PharmacyStaff HandledByStaff { get; set; } = null!;
     }
 }

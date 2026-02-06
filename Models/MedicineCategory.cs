@@ -12,6 +12,6 @@ namespace EHR01.Modules.Pharmacy.Models
         public DateTime CreatedAt { get; set; }
 
         // Navigation
-        public ICollection<Medicine> Medicines { get; set; } = new List<Medicine>();
+        public ICollection<Medico> Medicines { get; set; } = new List<Medico>();
     }
 }
